@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.SignalR;
 
 namespace JWTDemo.Model
 {
-    public class UserModel
+    public class UsersModel
     {
         public string Id { get; set; }
         public string DisplayName { get; set; }
@@ -20,5 +20,7 @@ namespace JWTDemo.Model
         public string Source { get; set; }
         public DateTime? UpdateDate { get; set; }
         public DateTime? LastDirectoryUpdate { get; set; }
+      
+       
     }
 }

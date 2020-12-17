@@ -87,7 +87,7 @@
       };
     },
     components: {
-        loading: VueLoading
+      loading: VueLoading,
     },
     validations: {
       account: { required },
@@ -144,7 +144,6 @@
             token: "Bearer " + Response.data,
           });
 
-          console.log(store.state.auth.token);
           router.push("/Home");
         } finally {
           this.loading = false;
